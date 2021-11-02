@@ -10,7 +10,9 @@ from datetime import timezone
 TCP_IP = "192.168.194.95"
 TCP_PORT = 16171
 
+
 dataJson = b''
+
 
 class TCPConnection:
     def __init__(self, sock=None):
