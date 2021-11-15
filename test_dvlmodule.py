@@ -5,6 +5,7 @@ import os
 import logging
 import json
 import csv
+
 from flatten_json import flatten
 from datetime import datetime
 from datetime import timezone
@@ -15,11 +16,39 @@ import asyncio
 TCP_IP = "192.168.194.95"
 TCP_PORT = 16171
 deviceid = "SUB"
-csv_header = "time,vx,vy,vz,fom,altitude,transducers_0_id,transducers_0_velocity,transducers_0_distance,transducers_0_rssi,transducers_0_nsd,transducers_0_beam_valid,transducers_1_id,transducers_1_velocity,transducers_1_distance,transducers_1_rssi,transducers_1_nsd,transducers_1_beam_valid,transducers_2_id,transducers_2_velocity,transducers_2_distance,transducers_2_rssi,transducers_2_nsd,transducers_2_beam_valid,transducers_3_id,transducers_3_velocity,transducers_3_distance,transducers_3_rssi,transducers_3_nsd,transducers_3_beam_valid,velocity_valid,status,format,type\n"
+csv_header = ['time','vx','vy','vz','fom','altitude','transducers_0_id','transducers_0_velocity','transducers_0_distance','transducers_0_rssi','transducers_0_nsd','transducers_0_beam_valid','transducers_1_id','transducers_1_velocity','transducers_1_distance','transducers_1_rssi','transducers_1_nsd','transducers_1_beam_valid','transducers_2_id','transducers_2_velocity','transducers_2_distance','transducers_2_rssi','transducers_2_nsd','transducers_2_beam_valid','transducers_3_id','transducers_3_velocity','transducers_3_distance','transducers_3_rssi','transducers_3_nsd','transducers_3_beam_valid','velocity_valid','status','format','type']
 save_locally = True
-csv_writer = ""
 
+csv_file = open('dvl_data.csv', 'w')
+csv_writer = csv.writer(csv_file)
 dataJson = b''
+
+
+def generate_csv_data(data: dict) -> str:
+  
+    # Defining CSV columns in a list to maintain
+    # the order
+    csv_columns = data.keys()
+  
+    # Generate the first row of CSV 
+    csv_data = ",".join(csv_columns) + "\n"
+  
+    # Generate the single record present
+    new_row = list()
+    for col in csv_columns:
+        new_row.append(str(data[col]))
+  
+    # Concatenate the record with the column information 
+    # in CSV format
+    csv_data += ",".join(new_row) + "\n"
+  
+    return csv_data
+
+def create_csv_file():
+    global csv_file, csv_writer
+    #csv_file = open('dvl_data.csv', 'w')
+    #csv_writer = csv.writer(csv_file)    
+    csv_writer.writerow(csv_header)
 
 
 class TCPConnection:
@@ -41,7 +70,7 @@ class TCPConnection:
         print(data)
 
     def read_dvl(self):
-        global dataJson, deviceid, save_locally
+        global dataJson, deviceid, save_locally, csv_writer
         vx = 0
         vy = 0
         vz = 0
@@ -87,9 +116,11 @@ class TCPConnection:
                     if save_locally == True:
                         if csv_writer:
                             csv_s = flatten(jsondata)
-                            csv_rows = csv_s.split('\n')
+                            csv_data = generate_csv_data(csv_s)
+                            csv_rows = csv_data.split('\n')
                             if csv_rows[1]:
-                                csv_writer.writerow(csv_s[1]+ '\n')
+                                dvl_array = csv_rows[1].split(',')
+                                csv_writer.writerow(dvl_array)
                 except:
                     logging.info('fails to write csv')
                 time_delta = time_delta + jsondata["time"]/1000.0
@@ -125,15 +156,10 @@ class TCPConnection:
                 logging.info("ts as IMU message")
             # 
 
-def create_csv_file():
-    global csv_writer
-    csv_file = open('dvl_data.csv', 'w')
 
-    csv_writer = csv.writer(csv_file)    
-    #csv_writer.writerow(csv_header)
 
 async def main():
-    global TCP_IP, TCP_PORT
+    global TCP_IP, TCP_PORT, csv_file, csv_writer
     logging.info("IoT Hub Client for Python: dvlmodule")
     try:
         if not sys.version >= "3.5.3":
@@ -189,8 +215,11 @@ async def main():
         # Cancel listening
         listeners.cancel()
 
+        csv_file.close()
+
         # Finally, disconnect
         #await module_client.disconnect()
+
 
     except Exception as e:
         print ( "Unexpected error %s " % e )
