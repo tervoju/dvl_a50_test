@@ -3,16 +3,28 @@ import time
 import os
 import logging
 import json
+from flatten_json import flatten
 from datetime import datetime
 from datetime import timezone
 
 
 TCP_IP = "192.168.194.95"
 TCP_PORT = 16171
+deviceid = "SUB"
+csv_header = "time,vx,vy,vz,fom,altitude,transducers_0_id,transducers_0_velocity,transducers_0_distance,transducers_0_rssi,transducers_0_nsd,transducers_0_beam_valid,transducers_1_id,transducers_1_velocity,transducers_1_distance,transducers_1_rssi,transducers_1_nsd,transducers_1_beam_valid,transducers_2_id,transducers_2_velocity,transducers_2_distance,transducers_2_rssi,transducers_2_nsd,transducers_2_beam_valid,transducers_3_id,transducers_3_velocity,transducers_3_distance,transducers_3_rssi,transducers_3_nsd,transducers_3_beam_valid,velocity_valid,status,format,type\n"
+save_locally = True
+csv_writer = ""
+# how to reset IMU: http://192.168.194.95/api/positioning/reset
 
+### GENERIC 
+# problems with VS Code connection "remote-SSH: connect to Host"
+#To find out which entry is for a known hostname in known_hosts:
+# ssh-keygen -H  -F <hostname or IP address>
+#To delete a single entry from known_hosts:
+
+# ssh-keygen -R <hostname or IP address>
 
 dataJson = b''
-
 
 class TCPConnection:
     def __init__(self, sock=None):
@@ -33,7 +45,7 @@ class TCPConnection:
         print(data)
 
     def read_dvl(self):
-        global dataJson
+        global dataJson, deviceid, save_locally
         vx = 0
         vy = 0
         vz = 0
@@ -74,7 +86,16 @@ class TCPConnection:
                 logging.info("time")
                 # 1 forward ?
 
-                # 2 save locally
+                # 2 save local csv file
+                try:
+                    if save_locally == True:
+                        if csv_writer:
+                            csv_s = flatten(jsondata)
+                            csv_rows = csv_s.split('\n')
+                            if csv_rows[1]:
+                                csv_writer.writerow(csv_s[1])
+                except:
+                    logging.info('fails to write csv')
                 time_delta = time_delta + jsondata["time"]/1000.0
                 # 3 target to average 60 s measurements  and forward
                 if jsondata["velocity_valid"] == True:
@@ -87,7 +108,7 @@ class TCPConnection:
                     measurement_cnt += 1
                     if time_delta >= 1.0:
                         message = {
-                            "deviceid": os.environ["IOTEDGE_DEVICEID"],
+                            "deviceid": deviceid,
                             "timestamp": datetime.now(timezone.utc).isoformat(),
                             "vx": vx / measurement_cnt,
                             "vy": vy / measurement_cnt,
@@ -100,12 +121,18 @@ class TCPConnection:
                         vx = 0
                         vy = 0
                         vz = 0
+                        logging.info("message collected")
                         ##payload = Message(json.dumps(message), content_encoding="utf-8", content_type="application/json")
                         ##await module_client.send_message_to_output(payload, "DVLaverageoutput") 
             # IMU message with x,y,z
             if "ts" in jsondata:
                 logging.info("ts as IMU message")
             # 
+
+def create_csv_file():
+    global csv_writer
+    csv_file = open('dvl_data.csv', 'w')
+    csv_writer = csv.writer(csv_file)    
 
 if __name__ == '__main__' : 
     logging.basicConfig()

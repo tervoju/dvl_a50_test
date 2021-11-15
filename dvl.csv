@@ -1,0 +1,42 @@
+"time", "vx", "vy","vz",
+    "fom": 2.661566972732544,
+    "altitude": -1,
+    "transducers": [
+        {
+            "id": 0,
+            "velocity": 0,
+            "distance": -1,
+            "rssi": -119.50314331054688,
+            "nsd": -95.97090148925781,
+            "beam_valid": false
+        },
+        {
+            "id": 1,
+            "velocity": 0,
+            "distance": -1,
+            "rssi": -119.97660064697266,
+            "nsd": -94.66395568847656,
+            "beam_valid": false
+        },
+        {
+            "id": 2,
+            "velocity": 0,
+            "distance": -1,
+            "rssi": -120.99003601074219,
+            "nsd": -96.87013244628906,
+            "beam_valid": false
+        },
+        {
+            "id": 3,
+            "velocity": 0,
+            "distance": -1,
+            "rssi": -116.98272705078125,
+            "nsd": -91.95513916015625,
+            "beam_valid": false
+        }
+    ],
+    "velocity_valid": false,
+    "status": 0,
+    "format": "json_v2",
+    "type": "velocity"
+}
