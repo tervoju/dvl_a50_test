@@ -1,5 +1,6 @@
 import socket
 import time
+import sys
 import os
 import logging
 import json
@@ -8,6 +9,8 @@ from flatten_json import flatten
 from datetime import datetime
 from datetime import timezone
 
+import asyncio
+
 
 TCP_IP = "192.168.194.95"
 TCP_PORT = 16171
@@ -15,17 +18,9 @@ deviceid = "SUB"
 csv_header = "time,vx,vy,vz,fom,altitude,transducers_0_id,transducers_0_velocity,transducers_0_distance,transducers_0_rssi,transducers_0_nsd,transducers_0_beam_valid,transducers_1_id,transducers_1_velocity,transducers_1_distance,transducers_1_rssi,transducers_1_nsd,transducers_1_beam_valid,transducers_2_id,transducers_2_velocity,transducers_2_distance,transducers_2_rssi,transducers_2_nsd,transducers_2_beam_valid,transducers_3_id,transducers_3_velocity,transducers_3_distance,transducers_3_rssi,transducers_3_nsd,transducers_3_beam_valid,velocity_valid,status,format,type\n"
 save_locally = True
 csv_writer = ""
-# how to reset IMU: http://192.168.194.95/api/positioning/reset
-
-### GENERIC 
-# problems with VS Code connection "remote-SSH: connect to Host"
-#To find out which entry is for a known hostname in known_hosts:
-# ssh-keygen -H  -F <hostname or IP address>
-#To delete a single entry from known_hosts:
-
-# ssh-keygen -R <hostname or IP address>
 
 dataJson = b''
+
 
 class TCPConnection:
     def __init__(self, sock=None):
@@ -137,11 +132,72 @@ def create_csv_file():
     csv_writer = csv.writer(csv_file)    
     #csv_writer.writerow(csv_header)
 
+async def main():
+    global TCP_IP, TCP_PORT
+    logging.info("IoT Hub Client for Python: dvlmodule")
+    try:
+        if not sys.version >= "3.5.3":
+            raise Exception( "The sample requires python 3.5.3+. Current version of Python: %s" % sys.version )
+        print ( "IoT Hub Client for Python" )
+
+        # The client object is used to interact with your Azure IoT hub.
+        #module_client = IoTHubModuleClient.create_from_edge_environment()
+
+        # connect the client.
+        #await module_client.connect()
+
+        # define behavior for receiving an input message on input1
+        '''
+        async def input1_listener(module_client):
+            while True:
+                input_message = await module_client.on_message_received("input1")  # blocking call
+                print("the data in the message received on input1 was ")
+                print(input_message.data)
+                print("custom properties are")
+                print(input_message.custom_properties)
+                print("forwarding mesage to output1")
+                await module_client.send_message_to_output(input_message, "output1")
+        '''
+        # define behavior for halting the application
+        def stdin_listener():
+            while True:
+                try:
+                    selection = input("Q")
+                    if selection == "Q" or selection == "q":
+                        print("Quitting...")
+                        break
+                except:
+                    time.sleep(10)
+        
+        create_csv_file()
+        
+        listen = TCPConnection()
+        listen.connect(TCP_IP, TCP_PORT)
+        logging.info( "The dvlmodule socket is connected ")
+            
+        # Schedule task for C2D Listener
+        listeners = asyncio.gather(listen.read_dvl())
+        logging.info( "The dvlmodule is now waiting for messages. ")
+
+        # Run the stdin listener in the event loop
+        loop = asyncio.get_event_loop()
+        user_finished = loop.run_in_executor(None, stdin_listener)
+
+        # Wait for user to indicate they are done listening for messages
+        await user_finished
+
+        # Cancel listening
+        listeners.cancel()
+
+        # Finally, disconnect
+        #await module_client.disconnect()
+
+    except Exception as e:
+        print ( "Unexpected error %s " % e )
+        raise
+
 if __name__ == '__main__' : 
     logging.basicConfig()
     logging.getLogger().setLevel(os.environ.get("LOGLEVEL", "INFO"))
-    create_csv_file()
-    listen = TCPConnection()
-    listen.connect('192.168.194.95',16171)
-    while (1):
-        listen.read_dvl()
+    asyncio.run(main())
+  
