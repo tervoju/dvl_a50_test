@@ -1,4 +1,13 @@
 
+# how to reset IMU: http://192.168.194.95/api/positioning/reset
+
+# problems with VS Code connection "remote-SSH: connect to Host"
+#To find out which entry is for a known hostname in known_hosts:
+# ssh-keygen -H  -F <hostname or IP address>
+#To delete a single entry from known_hosts:
+
+# ssh-keygen -R <hostname or IP address>
+
 
 # dvl 
 
