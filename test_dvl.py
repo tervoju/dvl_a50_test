@@ -3,6 +3,7 @@ import time
 import os
 import logging
 import json
+import csv
 from flatten_json import flatten
 from datetime import datetime
 from datetime import timezone
@@ -93,7 +94,7 @@ class TCPConnection:
                             csv_s = flatten(jsondata)
                             csv_rows = csv_s.split('\n')
                             if csv_rows[1]:
-                                csv_writer.writerow(csv_s[1])
+                                csv_writer.writerow(csv_s[1]+ '\n')
                 except:
                     logging.info('fails to write csv')
                 time_delta = time_delta + jsondata["time"]/1000.0
@@ -132,11 +133,14 @@ class TCPConnection:
 def create_csv_file():
     global csv_writer
     csv_file = open('dvl_data.csv', 'w')
+
     csv_writer = csv.writer(csv_file)    
+    #csv_writer.writerow(csv_header)
 
 if __name__ == '__main__' : 
     logging.basicConfig()
     logging.getLogger().setLevel(os.environ.get("LOGLEVEL", "INFO"))
+    create_csv_file()
     listen = TCPConnection()
     listen.connect('192.168.194.95',16171)
     while (1):
