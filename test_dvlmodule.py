@@ -10,22 +10,40 @@ from flatten_json import flatten
 from datetime import datetime
 from datetime import timezone
 
+from six.moves import input
+import threading
 import asyncio
+from functools import wraps, partial
 
 
 TCP_IP = "192.168.194.95"
 TCP_PORT = 16171
 deviceid = "SUB"
-csv_header = ['time','vx','vy','vz','fom','altitude','transducers_0_id','transducers_0_velocity','transducers_0_distance','transducers_0_rssi','transducers_0_nsd','transducers_0_beam_valid','transducers_1_id','transducers_1_velocity','transducers_1_distance','transducers_1_rssi','transducers_1_nsd','transducers_1_beam_valid','transducers_2_id','transducers_2_velocity','transducers_2_distance','transducers_2_rssi','transducers_2_nsd','transducers_2_beam_valid','transducers_3_id','transducers_3_velocity','transducers_3_distance','transducers_3_rssi','transducers_3_nsd','transducers_3_beam_valid','velocity_valid','status','format','type']
+
 save_locally = True
 
-csv_file = open('dvl_data.csv', 'w')
-csv_writer = csv.writer(csv_file)
+#DVL distance message
+csv_header_time = ['timestamp','time','vx','vy','vz','fom','altitude','transducers_0_id','transducers_0_velocity','transducers_0_distance','transducers_0_rssi','transducers_0_nsd','transducers_0_beam_valid','transducers_1_id','transducers_1_velocity','transducers_1_distance','transducers_1_rssi','transducers_1_nsd','transducers_1_beam_valid','transducers_2_id','transducers_2_velocity','transducers_2_distance','transducers_2_rssi','transducers_2_nsd','transducers_2_beam_valid','transducers_3_id','transducers_3_velocity','transducers_3_distance','transducers_3_rssi','transducers_3_nsd','transducers_3_beam_valid','velocity_valid','status','format','type']
+csv_file_time = open('dvl_data_time.csv', 'w')
+csv_writer_time = csv.writer_time(csv_file_time)
+
+#DVL IMU message
+csv_header_ts = ["timestamp","ts","x","y","z","std","roll","pitch","yaw","type","status","format"]
+csv_file_ts = open('dvl_data_time.csv', 'w')
+csv_writer_ts = csv.writer_ts(csv_file_ts)
+
 dataJson = b''
 
+def async_wrap(func):
+    @wraps(func)
+    async def run(*args, loop=None, executor=None, **kwargs):
+        if loop is None:
+            loop = asyncio.get_event_loop()
+        pfunc = partial(func, *args, **kwargs)
+        return await loop.run_in_executor(executor, pfunc)
+    return run
 
 def generate_csv_data(data: dict) -> str:
-  
     # Defining CSV columns in a list to maintain
     # the order
     csv_columns = data.keys()
@@ -44,11 +62,12 @@ def generate_csv_data(data: dict) -> str:
   
     return csv_data
 
-def create_csv_file():
-    global csv_file, csv_writer
+def create_csv_files():
+    global csv_file_time, csv_writer_time, csv_file_ts, csv_writer_ts
     #csv_file = open('dvl_data.csv', 'w')
     #csv_writer = csv.writer(csv_file)    
-    csv_writer.writerow(csv_header)
+    csv_writer_time.writerow(csv_header_time)
+    csv_writer_ts.writerow(csv_header_ts)
 
 
 class TCPConnection:
@@ -57,20 +76,21 @@ class TCPConnection:
             self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         else:
             self.sock = sock
-
+    @async_wrap
     def connect(self, host, port):
         try:
             self.sock.connect((host, port))
             print('Successful Connection')
         except:
             print('Connection Failed')
-
+    @async_wrap
     def readlines(self):
         data = self.sock.recv(1024)
         print(data)
 
+    @async_wrap
     def read_dvl(self):
-        global dataJson, deviceid, save_locally, csv_writer
+        global dataJson, deviceid, save_locally, csv_writer_time, csv_writer_ts
         vx = 0
         vy = 0
         vz = 0
@@ -114,13 +134,20 @@ class TCPConnection:
                 # 2 save local csv file
                 try:
                     if save_locally == True:
-                        if csv_writer:
+                        if csv_writer_time:
+                            # ct stores current time
+                            ct = datetime.now()
+    
+                            # ts store timestamp of current time
+                            ts = ct.timestamp()
+                            
                             csv_s = flatten(jsondata)
                             csv_data = generate_csv_data(csv_s)
                             csv_rows = csv_data.split('\n')
                             if csv_rows[1]:
                                 dvl_array = csv_rows[1].split(',')
-                                csv_writer.writerow(dvl_array)
+                                dvl_array.insert(0, ts)    
+                                csv_writer_time.writerow(dvl_array)
                 except:
                     logging.info('fails to write csv')
                 time_delta = time_delta + jsondata["time"]/1000.0
@@ -154,12 +181,31 @@ class TCPConnection:
             # IMU message with x,y,z
             if "ts" in jsondata:
                 logging.info("ts as IMU message")
+                    # 2 save local csv file
+                try:
+                    if save_locally == True:
+                        if csv_writer_ts:
+                            # ct stores current time
+                            ct = datetime.now()
+    
+                            # ts store timestamp of current time
+                            ts = ct.timestamp()
+                            
+                            csv_s = flatten(jsondata)
+                            csv_data = generate_csv_data(csv_s)
+                            csv_rows = csv_data.split('\n')
+                            if csv_rows[1]:
+                                dvl_array = csv_rows[1].split(',')
+                                dvl_array.insert(0, ts)    
+                                csv_writer_ts.writerow(dvl_array)
+                except:
+                    logging.info('fails to write csv')
             # 
 
 
 
 async def main():
-    global TCP_IP, TCP_PORT, csv_file, csv_writer
+    global TCP_IP, TCP_PORT, csv_file_time, csv_writer_time, csv_file_ts, csv_writer_ts
     logging.info("IoT Hub Client for Python: dvlmodule")
     try:
         if not sys.version >= "3.5.3":
@@ -188,17 +234,17 @@ async def main():
         def stdin_listener():
             while True:
                 try:
-                    selection = input("Q")
+                    selection = input("Press Q to quit\n")
                     if selection == "Q" or selection == "q":
                         print("Quitting...")
                         break
                 except:
                     time.sleep(10)
         
-        create_csv_file()
+        create_csv_files()
         
         listen = TCPConnection()
-        listen.connect(TCP_IP, TCP_PORT)
+        await listen.connect(TCP_IP, TCP_PORT)
         logging.info( "The dvlmodule socket is connected ")
             
         # Schedule task for C2D Listener
@@ -215,7 +261,8 @@ async def main():
         # Cancel listening
         listeners.cancel()
 
-        csv_file.close()
+        csv_file_time.close()
+        csv_file_ts.close()
 
         # Finally, disconnect
         #await module_client.disconnect()
