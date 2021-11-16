@@ -25,12 +25,12 @@ save_locally = True
 #DVL distance message
 csv_header_time = ['timestamp','time','vx','vy','vz','fom','altitude','transducers_0_id','transducers_0_velocity','transducers_0_distance','transducers_0_rssi','transducers_0_nsd','transducers_0_beam_valid','transducers_1_id','transducers_1_velocity','transducers_1_distance','transducers_1_rssi','transducers_1_nsd','transducers_1_beam_valid','transducers_2_id','transducers_2_velocity','transducers_2_distance','transducers_2_rssi','transducers_2_nsd','transducers_2_beam_valid','transducers_3_id','transducers_3_velocity','transducers_3_distance','transducers_3_rssi','transducers_3_nsd','transducers_3_beam_valid','velocity_valid','status','format','type']
 csv_file_time = open('dvl_data_time.csv', 'w')
-csv_writer_time = csv.writer_time(csv_file_time)
+csv_writer_time = csv.writer(csv_file_time)
 
 #DVL IMU message
 csv_header_ts = ["timestamp","ts","x","y","z","std","roll","pitch","yaw","type","status","format"]
-csv_file_ts = open('dvl_data_time.csv', 'w')
-csv_writer_ts = csv.writer_ts(csv_file_ts)
+csv_file_ts = open('dvl_data_ts.csv', 'w')
+csv_writer_ts = csv.writer(csv_file_ts)
 
 dataJson = b''
 
