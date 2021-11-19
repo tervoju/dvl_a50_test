@@ -17,7 +17,7 @@ from functools import wraps, partial
 
 from dvl_socket import TCPConnection
 
-# for socket 
+# for socket to DVL A50
 TCP_IP = "192.168.194.95"
 TCP_PORT = 16171
 deviceid = "SUB"

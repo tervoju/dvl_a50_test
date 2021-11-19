@@ -47,9 +47,9 @@ class TCPConnection:
     def connect(self, host, port):
         try:
             self.sock.connect((host, port))
-            print('Successful Connection')
+            logging.info('Successful Connection to DVL')
         except:
-            print('Connection Failed')
+            logging.info('Connection Failed DVL')
     @async_wrap
     def readlines(self):
         data = self.sock.recv(1024)
@@ -67,9 +67,9 @@ class TCPConnection:
         rawdata = b''
         data = b''
         time_delta = 0
-        logging.info('read dvl')
+        logging.info('Read DVL')
         while(1):
-            logging.info('read dvl - loop')
+            logging.info('Read DVL - Loop')
             rawdata = b''
             while not b'\n' in rawdata:
                 try:
@@ -89,13 +89,12 @@ class TCPConnection:
             strdata = rawdata.decode("utf-8").split('\n')
             dJson = strdata[1]
             strdata = strdata[0]
-            logging.info(strdata)
+            logging.info("dvl message received")
             # here the dvl message handing
             jsondata = json.loads(strdata) 
            
             # DVL velocity message
             if "time" in jsondata:
-                logging.info("time")
                 # 1 forward ?
 
                 # 2 save local csv file
@@ -104,6 +103,7 @@ class TCPConnection:
                         self.dvl_file.write_csv_data(jsondata)
                 except:
                     logging.info('fails to write csv')
+                    
                 time_delta = time_delta + jsondata["time"]/1000.0
                 # 3 target to average 60 s measurements  and forward
                 if jsondata["velocity_valid"] == True:
