@@ -8,6 +8,8 @@ from datetime import datetime
 from datetime import timezone
 import csv
 
+from dvl2csv_file import dvl2csv_file
+
 csv_header = ['timestamp','time','vx','vy','vz','fom','altitude','transducers_0_id','transducers_0_velocity','transducers_0_distance','transducers_0_rssi','transducers_0_nsd','transducers_0_beam_valid','transducers_1_id','transducers_1_velocity','transducers_1_distance','transducers_1_rssi','transducers_1_nsd','transducers_1_beam_valid','transducers_2_id','transducers_2_velocity','transducers_2_distance','transducers_2_rssi','transducers_2_nsd','transducers_2_beam_valid','transducers_3_id','transducers_3_velocity','transducers_3_distance','transducers_3_rssi','transducers_3_nsd','transducers_3_beam_valid','velocity_valid','status','format','type']
 save_locally = True
 
@@ -100,6 +102,7 @@ def dvl_json2csv(dvl_object):
 
 
 def main():
+    '''
     global csv_file, csv_writer
     #dvl_json2csv(dvl_json)
     csv_s = flatten(dvl_json)
@@ -125,6 +128,16 @@ def main():
     csv_writer.writerow(csv_array)
     print(csv_array)
     csv_writer.writerow(csv_array)
+'''
+    print("another round: ")
+
+    dvl_file = dvl2csv_file()
+    dvl_file.write_csv_data(dvl_json)
+
+    dvl_file.write_csv_data(dvl_json)
+    dvl_file.write_csv_data(dvl_json)
+    dvl_file.write_csv_data(dvl_json)
+    dvl_file.write_csv_data(dvl_json)
 
 
 
