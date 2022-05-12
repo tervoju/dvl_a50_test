@@ -147,10 +147,10 @@ async def main():
         print ( "IoT Hub Client for Python" )
 
         # The client object is used to interact with your Azure IoT hub.
-        module_client = IoTHubModuleClient.create_from_edge_environment()
+        module_client = None  #IoTHubModuleClient.create_from_edge_environment()
 
         # connect the client.
-        await module_client.connect()
+        #await module_client.connect()
 
         # define behavior for receiving an input message on input1
         async def input1_listener(module_client):
@@ -179,7 +179,7 @@ async def main():
         logging.info( "The dvlmodule socket is connected ")
             
         # Schedule task for C2D Listener
-        listeners = asyncio.gather(input1_listener(module_client), listen.read_dvl(module_client))
+        listeners = asyncio.gather(input1_listener(module_client), listen.read_dvl())
         logging.info( "The dvlmodule is now waiting for messages. ")
 
         # Run the stdin listener in the event loop
