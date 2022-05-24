@@ -22,8 +22,6 @@ from datetime import timezone
 
 # '{"time":81.95233154296875,"vx":0.0010110485600307584,"vy":-0.0007144125993363559,"vz":-0.00028028266387991607,"fom":0.0006783335120417178,"altitude":0.09129234403371811,"transducers":[{"id":0,"velocity":-0.0008826721459627151,"distance":0.14160001277923584,"rssi":-25.902250289916992,"nsd":-96.84258270263672,"beam_valid":true},{"id":1,"velocity":-0.00025184592232108116,"distance":0.1534000039100647,"rssi":-26.17237663269043,"nsd":-95.73751068115234,"beam_valid":true},{"id":2,"velocity":0.000026558060199022293,"distance":0.08260000497102737,"rssi":-25.71442413330078,"nsd":-95.33403778076172,"beam_valid":true},{"id":3,"velocity":0.00035340990871191025,"distance":0.08260000497102737,"rssi":-26.227529525756836,"nsd":-96.07746124267578,"beam_valid":true}],"velocity_valid":true,"status":0,"format":"json_v2","type":"velocity"}
 
-
-
 TCP_IP = "192.168.194.95"
 TCP_PORT = 16171
 deviceid = "SUB"
