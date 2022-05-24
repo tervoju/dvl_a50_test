@@ -1,4 +1,4 @@
-{
+[{
     "time": 393.4316711425781,
     "vx": 0,
     "vy": 0,
@@ -43,7 +43,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "time": 87.2852783203125,
     "vx": -0.011817003600299358,
@@ -89,7 +89,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "time": 87.2852783203125,
     "vx": -0.011817003600299358,
@@ -135,7 +135,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "ts": 1550139621.2104406,
     "x": -1195.807970612445,
@@ -148,7 +148,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "time": 200.68312072753906,
     "vx": -0.03314903378486633,
@@ -194,7 +194,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "time": 119.27748107910156,
     "vx": -0.008392227813601494,
@@ -240,7 +240,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "ts": 1550139621.4850123,
     "x": -1201.5512910191403,
@@ -253,7 +253,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "time": 260.0038146972656,
     "vx": 0,
@@ -299,7 +299,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "ts": 1550139621.835435,
     "x": -1208.8928888662952,
@@ -312,7 +312,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "time": 204.1404266357422,
     "vx": -0.03258054330945015,
@@ -358,7 +358,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "ts": 1550139622.1593804,
     "x": -1215.6930781835763,
@@ -371,7 +371,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "ts": 1550139622.384729,
     "x": -1220.4309194367897,
@@ -384,7 +384,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "time": 392.7159423828125,
     "vx": 0,
@@ -430,7 +430,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "time": 283.8892822265625,
     "vx": 0,
@@ -476,7 +476,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "ts": 1550139622.662768,
     "x": -1226.2856357965404,
@@ -489,7 +489,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "time": 111.4044189453125,
     "vx": 0.32975274324417114,
@@ -535,7 +535,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "ts": 1550139622.9595973,
     "x": -1232.5472467333607,
@@ -548,7 +548,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "ts": 1550139623.2097387,
     "x": -1237.8326297819167,
@@ -561,7 +561,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "time": 408.50616455078125,
     "vx": 0,
@@ -607,7 +607,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "time": 207.86070251464844,
     "vx": -0.001693658297881484,
@@ -653,7 +653,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "time": 86.95411682128906,
     "vx": -0.00968770869076252,
@@ -699,7 +699,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "ts": 1550139623.6102862,
     "x": -1246.3117765709608,
@@ -712,7 +712,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "time": 192.5198974609375,
     "vx": 0.012001081369817257,
@@ -758,7 +758,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "time": 122.98011779785156,
     "vx": -0.0003478860016912222,
@@ -804,7 +804,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "ts": 1550139623.9349232,
     "x": -1253.1973522476198,
@@ -817,7 +817,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "time": 262.4566650390625,
     "vx": 0,
@@ -863,7 +863,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "time": 202.92591857910156,
     "vx": -0.03712070360779762,
@@ -909,7 +909,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "ts": 1550139624.2636423,
     "x": -1260.1803321861314,
@@ -922,7 +922,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "ts": 1550139624.5353844,
     "x": -1265.961868701003,
@@ -935,7 +935,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "time": 393.4929504394531,
     "vx": 0,
@@ -981,7 +981,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "ts": 1550139624.8353395,
     "x": -1272.3545195558306,
@@ -994,7 +994,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "time": 273.5030517578125,
     "vx": 0.031807832419872284,
@@ -1040,7 +1040,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "time": 140.89297485351562,
     "vx": -0.00981208961457014,
@@ -1086,7 +1086,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "ts": 1550139625.1597097,
     "x": -1279.2795912390502,
@@ -1099,7 +1099,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "ts": 1550139625.385225,
     "x": -1284.102659553878,
@@ -1112,7 +1112,7 @@
     "type": "position_local",
     "status": 0,
     "format": "json_v2"
-}
+},
 {
     "time": 390.66888427734375,
     "vx": 0,
@@ -1158,7 +1158,7 @@
     "status": 0,
     "format": "json_v2",
     "type": "velocity"
-}
+},
 {
     "time": 167.429931640625,
     "vx": -0.0019511686405166984,
@@ -1214,7 +1214,7 @@
     "pitch": -3.404403700850568,
     "yaw": 19.840850598148617,
     "type":"position_loca'
-l","status":0,"format":"json_v2"}
+l","status":0,"format":"json_v2"},
 {
         "time": 83.76693725585938,
         "vx": -0.0050628213211894035,
@@ -1260,7 +1260,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 189.52035522460938,
         "vx": -0.0061667500995099545,
@@ -1306,7 +1306,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139625.9596987,
         "x": -1296.417255193843,
@@ -1319,7 +1319,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 116.31488800048828,
         "vx": -0.005536489188671112,
@@ -1365,7 +1365,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139626.2094157,
         "x": -1301.7817958283224,
@@ -1378,7 +1378,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 256.7710876464844,
         "vx": 0,
@@ -1424,7 +1424,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 194.0665283203125,
         "vx": -0.040683943778276443,
@@ -1470,7 +1470,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139626.5350575,
         "x": -1308.790524343208,
@@ -1483,7 +1483,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139626.8347907,
         "x": -1315.2558833546163,
@@ -1496,7 +1496,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 389.9581298828125,
         "vx": 0,
@@ -1542,7 +1542,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139627.109697,
         "x": -1321.1956856812608,
@@ -1555,7 +1555,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 108.29782104492188,
         "vx": 0.014665402472019196,
@@ -1601,7 +1601,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 108.29782104492188,
         "vx": 0.014665402472019196,
@@ -1647,7 +1647,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139627.4343488,
         "x": -1328.2211503709918,
@@ -1660,7 +1660,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 386.19757080078125,
         "vx": 0,
@@ -1706,7 +1706,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139627.7099364,
         "x": -1334.1949253882121,
@@ -1719,7 +1719,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 168.86614990234375,
         "vx": -0.0019174206536263227,
@@ -1765,7 +1765,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 83.95529174804688,
         "vx": 0.003178155981004238,
@@ -1811,7 +1811,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139627.9353616,
         "x": -1339.0885038285578,
@@ -1824,7 +1824,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 192.66390991210938,
         "vx": -0.004071391653269529,
@@ -1870,7 +1870,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 117.7470703125,
         "vx": -0.003625709330663085,
@@ -1916,7 +1916,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139628.2849178,
         "x": -1346.6887476158233,
@@ -1929,7 +1929,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 255.3284149169922,
         "vx": 0,
@@ -1975,7 +1975,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139628.5348687,
         "x": -1352.133704870283,
@@ -1988,7 +1988,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 202.02255249023438,
         "vx": -0.12153152376413345,
@@ -2034,7 +2034,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139628.8849788,
         "x": -1359.77410748911,
@@ -2047,7 +2047,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 391.3078308105469,
         "vx": 0,
@@ -2093,7 +2093,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139629.1593816,
         "x": -1365.7732254014632,
@@ -2106,7 +2106,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 116.44816589355469,
         "vx": -0.0012070800876244903,
@@ -2152,7 +2152,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139629.384967,
         "x": -1370.7109539800542,
@@ -2165,7 +2165,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 116.44816589355469,
         "vx": -0.0012070800876244903,
@@ -2211,7 +2211,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139629.6350565,
         "x": -1376.19117477764,
@@ -2224,7 +2224,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 387.62640380859375,
         "vx": 0,
@@ -2270,7 +2270,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 148.47445678710938,
         "vx": -0.0008287553791888058,
@@ -2316,7 +2316,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139629.9351041,
         "x": -1382.7743405493236,
@@ -2329,7 +2329,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 92.06343078613281,
         "vx": 0.00010868872777791694,
@@ -2375,7 +2375,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 187.18504333496094,
         "vx": -0.0026887026615440845,
@@ -2421,7 +2421,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139630.2853537,
         "x": -1390.4713350473312,
@@ -2434,7 +2434,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 116.48869323730469,
         "vx": -0.0005121717695146799,
@@ -2480,7 +2480,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139630.5847445,
         "x": -1397.060302401848,
@@ -2493,7 +2493,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 259.6700134277344,
         "vx": 0,
@@ -2539,7 +2539,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 196.0091552734375,
         "vx": -0.03672736883163452,
@@ -2585,7 +2585,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139630.8629458,
         "x": -1403.1894879603774,
@@ -2598,7 +2598,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139631.1347883,
         "x": -1409.1866285857122,
@@ -2611,7 +2611,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 405.6742248535156,
         "vx": 0,
@@ -2657,7 +2657,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139631.409904,
         "x": -1415.2634174914713,
@@ -2670,7 +2670,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 260.6010437011719,
         "vx": 0,
@@ -2716,7 +2716,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 114.39871978759766,
         "vx": 0.0050752186216413975,
@@ -2762,7 +2762,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139631.61001,
         "x": -1419.6882150249107,
@@ -2775,7 +2775,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139631.834832,
         "x": -1424.666154671367,
@@ -2788,7 +2788,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 397.6812438964844,
         "vx": 0,
@@ -2834,7 +2834,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139632.1096103,
         "x": -1430.7599458740085,
@@ -2847,7 +2847,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 203.73416137695312,
         "vx": 0.01795271597802639,
@@ -2893,7 +2893,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 88.64450073242188,
         "vx": 0.01136058010160923,
@@ -2939,7 +2939,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 195.03427124023438,
         "vx": -0.03613462671637535,
@@ -2985,7 +2985,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139632.5350726,
         "x": -1440.2059215822308,
@@ -2998,7 +2998,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 115.40889739990234,
         "vx": 0.00451553612947464,
@@ -3044,7 +3044,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139632.784328,
         "x": -1445.7475925984347,
@@ -3057,7 +3057,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 260.4844665527344,
         "vx": 0,
@@ -3103,7 +3103,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 203.08447265625,
         "vx": -0.02897709794342518,
@@ -3149,7 +3149,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139633.110317,
         "x": -1453.0037565420164,
@@ -3162,7 +3162,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139633.3353786,
         "x": -1458.0213941556015,
@@ -3175,7 +3175,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 402.9550476074219,
         "vx": 0,
@@ -3221,7 +3221,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139633.635068,
         "x": -1464.7157244526816,
@@ -3234,7 +3234,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 277.729736328125,
         "vx": 0,
@@ -3280,7 +3280,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 143.2321014404297,
         "vx": 0.07025419175624847,
@@ -3326,7 +3326,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139633.9100683,
         "x": -1470.880403064477,
@@ -3339,7 +3339,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139634.1352508,
         "x": -1475.9568316381974,
@@ -3352,7 +3352,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 391.6616516113281,
         "vx": 0,
@@ -3398,7 +3398,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139634.3849041,
         "x": -1481.5958802489092,
@@ -3411,7 +3411,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 88.0787353515625,
         "vx": -0.021483471617102623,
@@ -3457,7 +3457,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 88.0787353515625,
         "vx": -0.021483471617102623,
@@ -3503,7 +3503,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139634.6099765,
         "x": -1486.697175510917,
@@ -3516,7 +3516,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 203.3708038330078,
         "vx": 0.008687199093401432,
@@ -3562,7 +3562,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 114.81475830078125,
         "vx": 0.06990505754947662,
@@ -3608,7 +3608,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139634.884346,
         "x": -1492.919816354338,
@@ -3621,7 +3621,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139635.1099327,
         "x": -1498.0284856169258,
@@ -3634,7 +3634,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 279.98663330078125,
         "vx": 0,
@@ -3680,7 +3680,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 207.4465789794922,
         "vx": 0.021159706637263298,
@@ -3726,7 +3726,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139635.4348314,
         "x": -1505.365816417784,
@@ -3739,7 +3739,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139635.663181,
         "x": -1510.5061509543225,
@@ -3752,7 +3752,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 403.03515625,
         "vx": 0,
@@ -3798,7 +3798,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139635.9096003,
         "x": -1516.037072687548,
@@ -3811,7 +3811,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 278.62860107421875,
         "vx": 0.016161326318979263,
@@ -3857,7 +3857,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 151.80874633789062,
         "vx": -0.09448707848787308,
@@ -3903,7 +3903,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139636.1600997,
         "x": -1521.6514019071735,
@@ -3916,7 +3916,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139636.5097535,
         "x": -1529.4768831674633,
@@ -3929,7 +3929,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 395.38763427734375,
         "vx": 0,
@@ -3975,7 +3975,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 198.7690887451172,
         "vx": 0.004800839349627495,
@@ -4021,7 +4021,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139636.7593935,
         "x": -1535.051452199042,
@@ -4034,7 +4034,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 88.21892547607422,
         "vx": -0.13260537385940552,
@@ -4080,7 +4080,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139637.035197,
         "x": -1541.1937293481944,
@@ -4093,7 +4093,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 113.31963348388672,
         "vx": 0.007890386506915092,
@@ -4139,7 +4139,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 113.31963348388672,
         "vx": 0.007890386506915092,
@@ -4185,7 +4185,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139637.3850923,
         "x": -1548.9529980643438,
@@ -4198,7 +4198,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 255.10000610351562,
         "vx": 0,
@@ -4244,7 +4244,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 197.9501190185547,
         "vx": 0.07775983214378357,
@@ -4290,7 +4290,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139637.6641808,
         "x": -1555.1119708784006,
@@ -4303,7 +4303,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139637.8647206,
         "x": -1559.5225532560128,
@@ -4316,7 +4316,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 393.8181457519531,
         "vx": 0,
@@ -4362,7 +4362,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139638.1596048,
         "x": -1566.0192359134737,
@@ -4375,7 +4375,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 267.8437194824219,
         "vx": 0,
@@ -4421,7 +4421,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 146.0690460205078,
         "vx": -0.0508839376270771,
@@ -4467,7 +4467,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139638.509819,
         "x": -1573.7299479934914,
@@ -4480,7 +4480,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139638.785387,
         "x": -1579.8249098788149,
@@ -4493,7 +4493,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 389.6930236816406,
         "vx": 0,
@@ -4539,7 +4539,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 84.82193756103516,
         "vx": 0,
@@ -4585,7 +4585,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139639.0349576,
         "x": -1585.3761469163503,
@@ -4598,7 +4598,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 84.82193756103516,
         "vx": 0,
@@ -4644,7 +4644,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 193.93252563476562,
         "vx": 0.014564132317900658,
@@ -4690,7 +4690,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139639.3098648,
         "x": -1591.5164688903003,
@@ -4703,7 +4703,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 111.3474349975586,
         "vx": -0.02088402584195137,
@@ -4749,7 +4749,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139639.634386,
         "x": -1598.7925325457172,
@@ -4762,7 +4762,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 259.8717346191406,
         "vx": 0,
@@ -4808,7 +4808,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 201.5564422607422,
         "vx": 0.03165891766548157,
@@ -4854,7 +4854,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139639.9347982,
         "x": -1605.551456887027,
@@ -4867,7 +4867,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139640.2097433,
         "x": -1611.7575305708465,
@@ -4880,7 +4880,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 389.69158935546875,
         "vx": 0,
@@ -4926,7 +4926,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139640.462971,
         "x": -1617.4821009380955,
@@ -4939,7 +4939,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 282.9833068847656,
         "vx": 0,
@@ -4985,7 +4985,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 112.8904800415039,
         "vx": 0,
@@ -5031,7 +5031,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139640.76014,
         "x": -1624.2039617005948,
@@ -5044,7 +5044,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139641.0102391,
         "x": -1629.858938228966,
@@ -5057,7 +5057,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 388.987548828125,
         "vx": 0,
@@ -5103,7 +5103,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 83.38284301757812,
         "vx": 0,
@@ -5149,7 +5149,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 83.38284301757812,
         "vx": 0,
@@ -5195,7 +5195,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139641.3352592,
         "x": -1637.1961032921279,
@@ -5208,7 +5208,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 188.476806640625,
         "vx": 0.014681964181363583,
@@ -5254,7 +5254,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 110.76307678222656,
         "vx": -0.004322529770433903,
@@ -5300,7 +5300,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139641.6101975,
         "x": -1643.3854304821957,
@@ -5313,7 +5313,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 260.1475830078125,
         "vx": 0,
@@ -5359,7 +5359,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139641.9353333,
         "x": -1650.6829284812657,
@@ -5372,7 +5372,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 198.98892211914062,
         "vx": 0.11082696914672852,
@@ -5418,7 +5418,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139642.2098315,
         "x": -1656.8290825514373,
@@ -5431,7 +5431,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 389.2026062011719,
         "vx": 0,
@@ -5477,7 +5477,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139642.5102806,
         "x": -1663.5387460443094,
@@ -5490,7 +5490,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 262.21514892578125,
         "vx": 0,
@@ -5536,7 +5536,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 102.65373992919922,
         "vx": -0.0033144631888717413,
@@ -5582,7 +5582,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139642.835373,
         "x": -1670.7701324001487,
@@ -5595,7 +5595,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139643.084681,
         "x": -1676.2959980057838,
@@ -5608,7 +5608,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 392.5280456542969,
         "vx": 0,
@@ -5654,7 +5654,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 216.0613555908203,
         "vx": 0.0003995804290752858,
@@ -5700,7 +5700,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139643.4097583,
         "x": -1683.4788122717973,
@@ -5713,7 +5713,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 85.51406860351562,
         "vx": 0.01746038906276226,
@@ -5759,7 +5759,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 117.19727325439453,
         "vx": 0.042485304176807404,
@@ -5805,7 +5805,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139643.7347927,
         "x": -1690.6338323877112,
@@ -5818,7 +5818,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 117.19727325439453,
         "vx": 0.042485304176807404,
@@ -5864,7 +5864,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139644.0352323,
         "x": -1697.2303296740934,
@@ -5877,7 +5877,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 255.27285766601562,
         "vx": 0,
@@ -5923,7 +5923,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 195.03855895996094,
         "vx": -0.00314572942443192,
@@ -5969,7 +5969,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139644.3098178,
         "x": -1703.242965144154,
@@ -5982,7 +5982,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139644.5600798,
         "x": -1708.7145280237357,
@@ -5995,7 +5995,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 397.1235656738281,
         "vx": 0,
@@ -6041,7 +6041,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139644.8349333,
         "x": -1714.720708247612,
@@ -6054,7 +6054,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 277.9684143066406,
         "vx": 0,
@@ -6100,7 +6100,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 108.18123626708984,
         "vx": 0.0032994840294122696,
@@ -6146,7 +6146,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139645.1349144,
         "x": -1721.2771653689424,
@@ -6159,7 +6159,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139645.3352451,
         "x": -1725.6577323681663,
@@ -6172,7 +6172,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 390.899169921875,
         "vx": 0,
@@ -6218,7 +6218,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 163.52175903320312,
         "vx": 0.00046396051766350865,
@@ -6264,7 +6264,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139645.6350992,
         "x": -1732.2156624689649,
@@ -6277,7 +6277,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 88.1509780883789,
         "vx": 0.004795269574970007,
@@ -6323,7 +6323,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 191.04981994628906,
         "vx": -0.007151540834456682,
@@ -6369,7 +6369,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139645.884917,
         "x": -1737.6773531664826,
@@ -6382,7 +6382,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 119.6248550415039,
         "vx": 0.13924838602542877,
@@ -6428,7 +6428,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139646.1848369,
         "x": -1744.2348061643927,
@@ -6441,7 +6441,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 260.39337158203125,
         "vx": 0,
@@ -6487,7 +6487,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139646.434588,
         "x": -1749.6967493249058,
@@ -6500,7 +6500,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 216.48812866210938,
         "vx": -0.057363636791706085,
@@ -6546,7 +6546,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139646.7352736,
         "x": -1756.2683602656398,
@@ -6559,7 +6559,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 388.2513122558594,
         "vx": 0,
@@ -6605,7 +6605,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139646.9888148,
         "x": -1761.80909026909,
@@ -6618,7 +6618,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 278.71514892578125,
         "vx": 0,
@@ -6664,7 +6664,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 118.21365356445312,
         "vx": -0.0022938025649636984,
@@ -6710,7 +6710,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139647.385381,
         "x": -1770.4721645428592,
@@ -6723,7 +6723,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 396.48486328125,
         "vx": 0,
@@ -6769,7 +6769,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139647.7597406,
         "x": -1778.6418449541827,
@@ -6782,7 +6782,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 86.0178451538086,
         "vx": 0.0016432789852842689,
@@ -6828,7 +6828,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 86.0178451538086,
         "vx": 0.0016432789852842689,
@@ -6874,7 +6874,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139647.9598486,
         "x": -1783.0062652883328,
@@ -6887,7 +6887,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 185.6825408935547,
         "vx": -0.051435064524412155,
@@ -6933,7 +6933,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 115.54837036132812,
         "vx": -0.0022301969584077597,
@@ -6979,7 +6979,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139648.2636797,
         "x": -1789.6307222820985,
@@ -6992,7 +6992,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 258.20208740234375,
         "vx": 0,
@@ -7038,7 +7038,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139648.5348403,
         "x": -1795.5425126627886,
@@ -7051,7 +7051,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 205.05833435058594,
         "vx": 0.026042481884360313,
@@ -7097,7 +7097,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139648.9351227,
         "x": -1804.27083032876,
@@ -7110,7 +7110,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 390.0768737792969,
         "vx": 0,
@@ -7156,7 +7156,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139649.2353573,
         "x": -1810.8188487173247,
@@ -7169,7 +7169,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 277.7337951660156,
         "vx": 0,
@@ -7215,7 +7215,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139649.484871,
         "x": -1816.2633792319368,
@@ -7228,7 +7228,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 137.2783203125,
         "vx": 0.0039821346290409565,
@@ -7274,7 +7274,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139649.784781,
         "x": -1822.8127893269357,
@@ -7287,7 +7287,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 392.4651184082031,
         "vx": 0,
@@ -7333,7 +7333,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139650.03577,
         "x": -1828.2979437134215,
@@ -7346,7 +7346,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 91.99905395507812,
         "vx": 0.008680535480380058,
@@ -7392,7 +7392,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 91.99905395507812,
         "vx": 0.008680535480380058,
@@ -7438,7 +7438,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139650.3593485,
         "x": -1835.3751945438557,
@@ -7451,7 +7451,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 187.57366943359375,
         "vx": 0.03710528090596199,
@@ -7497,7 +7497,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 119.54069519042969,
         "vx": -0.0033249014522880316,
@@ -7543,7 +7543,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139650.662623,
         "x": -1842.0138163711754,
@@ -7556,7 +7556,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 266.8495178222656,
         "vx": 0,
@@ -7602,7 +7602,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139650.9351041,
         "x": -1847.9820688971863,
@@ -7615,7 +7615,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 193.37820434570312,
         "vx": 0.03810334578156471,
@@ -7661,7 +7661,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139651.184694,
         "x": -1853.4510237264092,
@@ -7674,7 +7674,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 399.4433898925781,
         "vx": 0,
@@ -7720,7 +7720,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139651.4350905,
         "x": -1858.9384663959625,
@@ -7733,7 +7733,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 257.1456298828125,
         "vx": 0,
@@ -7779,7 +7779,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 127.34603881835938,
         "vx": -0.000757096684537828,
@@ -7825,7 +7825,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139651.735086,
         "x": -1865.5193116467844,
@@ -7838,7 +7838,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139651.959842,
         "x": -1870.451713859524,
@@ -7851,7 +7851,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 396.0006103515625,
         "vx": 0,
@@ -7897,7 +7897,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139652.2099364,
         "x": -1875.9426413575777,
@@ -7910,7 +7910,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 205.993896484375,
         "vx": -0.000355983036570251,
@@ -7956,7 +7956,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 100.87799835205078,
         "vx": -0.0027531760279089212,
@@ -8002,7 +8002,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139652.4630435,
         "x": -1881.5037873449483,
@@ -8015,7 +8015,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 118.05367279052734,
         "vx": 0.0023061821702867746,
@@ -8061,7 +8061,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 118.05367279052734,
         "vx": 0.0023061821702867746,
@@ -8107,7 +8107,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139652.8100038,
         "x": -1889.1310095163565,
@@ -8120,7 +8120,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 259.2117919921875,
         "vx": 0,
@@ -8166,7 +8166,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139653.084728,
         "x": -1895.1738376602782,
@@ -8179,7 +8179,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 201.31564331054688,
         "vx": -0.009802760556340218,
@@ -8225,7 +8225,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139653.4659588,
         "x": -1903.5622395591158,
@@ -8238,7 +8238,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 400.75732421875,
         "vx": 0,
@@ -8284,7 +8284,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139653.7353742,
         "x": -1909.4945710529853,
@@ -8297,7 +8297,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 263.9327087402344,
         "vx": 0,
@@ -8343,7 +8343,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139653.935407,
         "x": -1913.900859759732,
@@ -8356,7 +8356,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 137.4032440185547,
         "vx": -0.02901901677250862,
@@ -8402,7 +8402,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139654.2345674,
         "x": -1920.4926881698123,
@@ -8415,7 +8415,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 403.3575134277344,
         "vx": 0,
@@ -8461,7 +8461,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139654.4851162,
         "x": -1926.016201500589,
@@ -8474,7 +8474,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 242.73609924316406,
         "vx": 0.0003228178829886019,
@@ -8520,7 +8520,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 92.04817199707031,
         "vx": 0.0017458224901929498,
@@ -8566,7 +8566,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139654.8102472,
         "x": -1933.186048667499,
@@ -8579,7 +8579,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 188.50279235839844,
         "vx": 0.0020846358966082335,
@@ -8625,7 +8625,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 123.54159545898438,
         "vx": 0.00907051283866167,
@@ -8671,7 +8671,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139655.085407,
         "x": -1939.2540754391143,
@@ -8684,7 +8684,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139655.3100288,
         "x": -1944.2086407178622,
@@ -8697,7 +8697,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 258.9478454589844,
         "vx": 0.011490008793771267,
@@ -8743,7 +8743,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 203.93658447265625,
         "vx": -0.008003829047083855,
@@ -8789,7 +8789,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139655.634644,
         "x": -1951.369223048345,
@@ -8802,7 +8802,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139655.910303,
         "x": -1957.4481441952435,
@@ -8815,7 +8815,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 395.1063232421875,
         "vx": 0,
@@ -8861,7 +8861,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 278.3460693359375,
         "vx": 0,
@@ -8907,7 +8907,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139656.2353864,
         "x": -1964.6180131618435,
@@ -8920,7 +8920,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 124.94612121582031,
         "vx": -0.003169057425111532,
@@ -8966,7 +8966,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139656.5851045,
         "x": -1972.3315057965308,
@@ -8979,7 +8979,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 389.59765625,
         "vx": 0,
@@ -9025,7 +9025,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 80.41095733642578,
         "vx": 0.013614128343760967,
@@ -9071,7 +9071,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139656.8630917,
         "x": -1978.4627449681318,
@@ -9084,7 +9084,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 80.41095733642578,
         "vx": 0.013614128343760967,
@@ -9130,7 +9130,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139657.1346827,
         "x": -1984.4556043911734,
@@ -9143,7 +9143,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 187.90269470214844,
         "vx": -0.0026645148172974586,
@@ -9189,7 +9189,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 119.31275939941406,
         "vx": -0.002645190106704831,
@@ -9235,7 +9235,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139657.3851118,
         "x": -1989.9794480831645,
@@ -9248,7 +9248,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 260.81134033203125,
         "vx": 0,
@@ -9294,7 +9294,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139657.68512,
         "x": -1996.598602079233,
@@ -9307,7 +9307,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 199.87606811523438,
         "vx": 0.048013780266046524,
@@ -9353,7 +9353,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139657.9848218,
         "x": -2003.2240530529411,
@@ -9366,7 +9366,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 397.5517883300781,
         "vx": 0,
@@ -9412,7 +9412,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139658.264702,
         "x": -2009.4337880499245,
@@ -9425,7 +9425,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 281.55206298828125,
         "vx": 0,
@@ -9471,7 +9471,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139658.5347118,
         "x": -2015.4549840199413,
@@ -9484,7 +9484,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 150.1922607421875,
         "vx": -0.00374226039275527,
@@ -9530,7 +9530,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139658.7849221,
         "x": -2021.068561341456,
@@ -9543,7 +9543,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 393.2139892578125,
         "vx": 0,
@@ -9589,7 +9589,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139659.0347636,
         "x": -2026.7036885582227,
@@ -9602,7 +9602,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 190.5343475341797,
         "vx": -0.022010816261172295,
@@ -9648,7 +9648,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 90.16537475585938,
         "vx": 0.011451142840087414,
@@ -9694,7 +9694,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139659.2655673,
         "x": -2031.9348252895288,
@@ -9707,7 +9707,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 190.3669891357422,
         "vx": -0.05286460369825363,
@@ -9753,7 +9753,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 111.33026885986328,
         "vx": 0.029107870534062386,
@@ -9799,7 +9799,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139659.5348794,
         "x": -2038.0669912133542,
@@ -9812,7 +9812,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 259.98187255859375,
         "vx": 0,
@@ -9858,7 +9858,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139659.9099662,
         "x": -2046.6401349070036,
@@ -9871,7 +9871,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 199.8782196044922,
         "vx": -0.008659297600388527,
@@ -9917,7 +9917,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139660.1603785,
         "x": -2052.377106633794,
@@ -9930,7 +9930,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139660.3849378,
         "x": -2057.5243812839685,
@@ -9943,7 +9943,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 387.7110595703125,
         "vx": 0,
@@ -9989,7 +9989,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 269.0417785644531,
         "vx": 0,
@@ -10035,7 +10035,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139660.7102993,
         "x": -2064.975775024062,
@@ -10048,7 +10048,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 111.16838073730469,
         "vx": -0.01918850839138031,
@@ -10094,7 +10094,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139660.9853756,
         "x": -2071.283931777605,
@@ -10107,7 +10107,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 393.4953308105469,
         "vx": 0,
@@ -10153,7 +10153,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139661.261894,
         "x": -2077.6193130803467,
@@ -10166,7 +10166,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 99.03788757324219,
         "vx": 0.03772933781147003,
@@ -10212,7 +10212,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 99.03788757324219,
         "vx": 0.03772933781147003,
@@ -10258,7 +10258,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139661.4634783,
         "x": -2082.234422862423,
@@ -10271,7 +10271,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 194.55027770996094,
         "vx": 0.08577441424131393,
@@ -10317,7 +10317,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139661.7099802,
         "x": -2087.8845971026217,
@@ -10330,7 +10330,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 119.64750671386719,
         "vx": 0.1520146280527115,
@@ -10376,7 +10376,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139661.959457,
         "x": -2093.6289885514516,
@@ -10389,7 +10389,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 260.3819274902344,
         "vx": 0,
@@ -10435,7 +10435,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139662.21033,
         "x": -2099.4471483475386,
@@ -10448,7 +10448,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 206.68267822265625,
         "vx": 0.07186140865087509,
@@ -10494,7 +10494,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139662.434659,
         "x": -2104.687202621503,
@@ -10507,7 +10507,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 397.1300048828125,
         "vx": 0,
@@ -10553,7 +10553,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139662.7602906,
         "x": -2112.362863037788,
@@ -10566,7 +10566,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 132.10081481933594,
         "vx": -0.02358495444059372,
@@ -10612,7 +10612,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 132.10081481933594,
         "vx": -0.02358495444059372,
@@ -10658,7 +10658,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139663.0853796,
         "x": -2120.1144547452304,
@@ -10671,7 +10671,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139663.310007,
         "x": -2125.52540085554,
@@ -10684,7 +10684,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 390.919921875,
         "vx": 0,
@@ -10730,7 +10730,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 155.3189697265625,
         "vx": 0.0009464764734730124,
@@ -10776,7 +10776,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139663.5847805,
         "x": -2132.2018676970165,
@@ -10789,7 +10789,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 86.49444580078125,
         "vx": 0.0017633172683417797,
@@ -10835,7 +10835,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 186.31362915039062,
         "vx": -0.04452779144048691,
@@ -10881,7 +10881,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 124.98974609375,
         "vx": -0.03430555760860443,
@@ -10927,7 +10927,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139663.9843693,
         "x": -2142.015926722688,
@@ -10940,7 +10940,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 263.11468505859375,
         "vx": 0,
@@ -10986,7 +10986,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139664.2621603,
         "x": -2148.906861864822,
@@ -10999,7 +10999,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 197.62326049804688,
         "vx": -0.055639173835515976,
@@ -11045,7 +11045,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139664.5600455,
         "x": -2156.347466495867,
@@ -11058,7 +11058,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139664.785056,
         "x": -2162.000304989805,
@@ -11071,7 +11071,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 398.69476318359375,
         "vx": 0,
@@ -11117,7 +11117,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139665.0626855,
         "x": -2169.007209557626,
@@ -11130,7 +11130,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 267.4167175292969,
         "vx": 0.06894291192293167,
@@ -11176,7 +11176,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 116.83773803710938,
         "vx": -0.04709850624203682,
@@ -11222,7 +11222,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139665.3099728,
         "x": -2175.2737511772643,
@@ -11235,7 +11235,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139665.5603228,
         "x": -2181.6356476713636,
@@ -11248,7 +11248,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 402.08624267578125,
         "vx": 0,
@@ -11294,7 +11294,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 167.46783447265625,
         "vx": 0.0009667435078881681,
@@ -11340,7 +11340,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 83.86779022216797,
         "vx": -0.0069589028134942055,
@@ -11386,7 +11386,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139665.8628232,
         "x": -2189.3403864737443,
@@ -11399,7 +11399,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 186.32745361328125,
         "vx": 0.007750820834189653,
@@ -11445,7 +11445,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 112.66303253173828,
         "vx": -0.019563864916563034,
@@ -11491,7 +11491,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139666.1595843,
         "x": -2196.91617393511,
@@ -11504,7 +11504,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139666.3844132,
         "x": -2202.671203900104,
@@ -11517,7 +11517,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 255.79953002929688,
         "vx": -0.0007617810042575002,
@@ -11563,7 +11563,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 196.75326538085938,
         "vx": -0.025692684575915337,
@@ -11609,7 +11609,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139666.7099192,
         "x": -2211.031991140099,
@@ -11622,7 +11622,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139666.934763,
         "x": -2216.8352996417334,
@@ -11635,7 +11635,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 403.6107177734375,
         "vx": 0,
@@ -11681,7 +11681,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139667.210118,
         "x": -2223.9714938157153,
@@ -11694,7 +11694,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 263.74053955078125,
         "vx": 0,
@@ -11740,7 +11740,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 126.74617767333984,
         "vx": 0.0014594242675229907,
@@ -11786,7 +11786,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139667.437955,
         "x": -2229.901856273044,
@@ -11799,7 +11799,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139667.685457,
         "x": -2236.365334026597,
@@ -11812,7 +11812,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 393.30242919921875,
         "vx": 0,
@@ -11858,7 +11858,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139667.93484,
         "x": -2242.8939449501,
@@ -11871,7 +11871,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 88.15240478515625,
         "vx": 0.0016330982325598598,
@@ -11917,7 +11917,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 88.15240478515625,
         "vx": 0.0016330982325598598,
@@ -11963,7 +11963,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 207.6029815673828,
         "vx": 0.007290466222912073,
@@ -12009,7 +12009,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139668.334553,
         "x": -2253.3748936446973,
@@ -12022,7 +12022,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 113.10553741455078,
         "vx": 0.0039025077130645514,
@@ -12068,7 +12068,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 257.7505187988281,
         "vx": 0,
@@ -12114,7 +12114,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139668.7348611,
         "x": -2263.8787236642784,
@@ -12127,7 +12127,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 201.60293579101562,
         "vx": 0.026378130540251732,
@@ -12173,7 +12173,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139669.0100882,
         "x": -2271.0960892705657,
@@ -12186,7 +12186,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 394.8075866699219,
         "vx": 0,
@@ -12232,7 +12232,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139669.384851,
         "x": -2280.919320145087,
@@ -12245,7 +12245,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 105.46922302246094,
         "vx": 0.004207307007163763,
@@ -12291,7 +12291,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 105.46922302246094,
         "vx": 0.004207307007163763,
@@ -12337,7 +12337,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139669.7349143,
         "x": -2290.100507317231,
@@ -12350,7 +12350,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "ts": 1550139669.9846528,
         "x": -2296.653736947411,
@@ -12363,7 +12363,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 398.9720458984375,
         "vx": 0,
@@ -12409,7 +12409,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 92.93961334228516,
         "vx": -0.0036273293662816286,
@@ -12455,7 +12455,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 92.93961334228516,
         "vx": -0.0036273293662816286,
@@ -12501,7 +12501,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139670.3347132,
         "x": -2305.848924382032,
@@ -12514,7 +12514,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 187.28756713867188,
         "vx": 0.0308533888310194,
@@ -12560,7 +12560,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "time": 115.55909729003906,
         "vx": 0.010317576117813587,
@@ -12606,7 +12606,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139670.6103723,
         "x": -2313.0988845712013,
@@ -12619,7 +12619,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 254.95672607421875,
         "vx": 0,
@@ -12665,7 +12665,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139670.8851812,
         "x": -2320.3363272155716,
@@ -12678,7 +12678,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 199.4454803466797,
         "vx": 0.007845704443752766,
@@ -12724,7 +12724,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139671.2352362,
         "x": -2329.56442254477,
@@ -12737,7 +12737,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 389.30010986328125,
         "vx": 0,
@@ -12783,7 +12783,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139671.5098743,
         "x": -2336.8136197761514,
@@ -12796,7 +12796,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 280.4346008300781,
         "vx": 0,
@@ -12842,7 +12842,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139671.7851326,
         "x": -2344.0843337952965,
@@ -12855,7 +12855,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 126.21450805664062,
         "vx": -0.0013840905157849193,
@@ -12901,7 +12901,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139672.0852256,
         "x": -2352.014799934307,
@@ -12914,7 +12914,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 388.10491943359375,
         "vx": 0,
@@ -12960,7 +12960,7 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    },
 {
         "ts": 1550139672.3349407,
         "x": -2358.617006835456,
@@ -12973,7 +12973,7 @@ l","status":0,"format":"json_v2"}
         "type": "position_local",
         "status": 0,
         "format": "json_v2"
-    }
+    },
 {
         "time": 194.98468017578125,
         "vx": -0.0020763699430972338,
@@ -13019,4 +13019,4 @@ l","status":0,"format":"json_v2"}
         "status": 0,
         "format": "json_v2",
         "type": "velocity"
-    }
+    }]
